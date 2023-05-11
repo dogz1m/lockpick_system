@@ -1,0 +1,10 @@
+sistema de lockpick para bases vrpex
+
+server-side
+
+vTASKBAR = Tunnel.getInterface('DzLockpick')
+
+local taskResult = vTASKBAR.lockpick(source)
+if taskResult then
+  -- seu codigo
+end
